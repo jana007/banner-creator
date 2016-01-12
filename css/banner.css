@@ -1,0 +1,189 @@
+/******************************
+Globals
+*******************************/
+* {
+	margin:0;
+	padding:0; }
+
+ul {
+	margin:0em 1em 1em 2em; }
+
+html {
+	min-height:100%; }
+
+a img {
+	border:0; }1
+
+body {
+	min-width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.7em;
+	color:#333333;
+	background:url(../images/bgBody.png) center top repeat-y #e6e6e6; }
+
+.show {
+	display:block; }
+
+.hide,
+#BGS_select,
+#SEALS_select {
+	display:none; }
+
+hr {
+	height:0;
+	border:none;
+	border-top:1px solid #ccc; }
+
+.clear {
+	clear:both; }
+
+/******************************
+Fonts
+*******************************/
+h1 {
+	font-size:2.5em;
+	padding:1em 0em .5em; }
+
+h2 {
+	font-size:.5em;
+	padding:0.5em 0em; }
+
+h3 {
+	font-size:1.4em;
+	padding:0.5em 0em 0.5em 0.3em;; }
+
+p {
+	font-size:1em;
+	line-height:1.7em; }
+
+a {
+	color:#8e1a1e;
+	text-decoration:none; }
+
+a:hover {
+    // changed by Elizabeth from underline
+	text-decoration:none; 
+	}
+
+/******************************
+Structure
+*******************************/
+.wrap {
+	width:960px;
+	width:800px;
+	margin:0 auto;
+	position:relative; }
+
+#fsuHeader {
+	background:url(../images/header.gif) #2b0007;
+	border-bottom:2px solid white;
+	box-shadow:0px 0px 5px #999; }
+	
+#fsuHeader a.campusLogo {
+	height:82px;
+	width: 300px;
+	float:left; }
+
+#fsuHeader a.fsuLogo {
+	height:82px;
+	display:block;
+ }
+
+.selectSeal {
+	width:200px;
+	float:left; }
+
+.selectBg {
+	width:500px;
+	float:left; }
+
+.bannerPreview {
+	margin:15px 0px;
+	position:relative;
+	display:block; }
+	
+	#bannerDownload {
+	//margin:15px 0px;
+	padding: 5px !important;
+
+	font-size: 14px;
+	position:relative;
+	display:block; 
+	}
+
+	
+.bannerPreview,
+.canvas {
+	width:765px;
+	overflow:hidden; }
+
+#SEALS_img_div {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10; }
+
+fieldset {
+	padding:10px;
+	border:none;
+	position:relative; }
+
+form input,
+form select {
+	padding:5px;
+	font-size:14px;
+	color:#666; }
+
+ul.text-fields {
+	margin:0px;
+	clear:both;
+	list-style-type:none; }
+
+ul.text-fields li {
+	float:left; }
+
+ul.text-fields li input,
+ul.text-fields li select {
+	margin:10px 5px; }
+
+ul.text-fields li:first-child {
+	width:35%; }
+
+ul.text-fields li:nth-child(2),
+ul.text-fields li:nth-child(3) {
+	width:15%; }
+
+ul.text-fields li:nth-child(4) input {
+	margin:15px; }
+
+ul.text-fields li:first-child input {
+	width:230px; }
+
+input[type=button] {
+    color: #666;
+    font-size:14px;
+    /* ... other rules ... */
+    cursor:pointer;
+	padding: 5px;
+}
+
+input[type=button]:hover {
+   
+	text-decoration: none;
+}
+
+#resetbtn,
+#convertpngbtn {
+	padding:3px; 
+	display:none; }
+
+
+/* pshan 6.23 */
+figure{
+	display: inline-block !important;
+	min-height: 100%;
+}
+figure figcaption{
+	text-align: center;
+}
